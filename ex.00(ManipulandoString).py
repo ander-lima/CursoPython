@@ -1,4 +1,4 @@
-frase = " Eu amo a Amanda botelho aquela rabuda gostosa do caralho"
+frase = " Eu amo a Amanda botelho"
 
 print ("Sua frase:")
 print (frase)
@@ -14,10 +14,6 @@ print(frase.count('a'))
 
 print("Encontrando 'Amanda' em: ")
 print(frase.find('Amanda'))
-
-print("Substituindo:")
-frase = frase.replace("gostosa", "deliciosa")
-print (frase) 
 
 print ("Maiusculo: ")
 print(frase.upper ())

@@ -1,5 +1,5 @@
 #Hello. Anotações para você meu lindo.
-print ("•× Vamo lá, de novo pro python!")
+print ("•× Vamos lá, de novo pro python!")
 
 #Armazenando variaveis
 n1 = int(input("Insira aqui o primeiro número: "))
