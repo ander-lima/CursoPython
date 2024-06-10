@@ -5,8 +5,8 @@ print ("•×"*19)
 print("")
 
 
-for c in range (3, 0, -1):
-	print (c)
+for i in range (3, 0, -1):
+	print (i)
 
 
 
