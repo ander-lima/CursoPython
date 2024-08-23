@@ -35,21 +35,21 @@ print ("E {} menores de idade".format(menor_i))
 #Versão Guanabara
 
 '''
-from datetime import date #importação
+    from datetime import date #importação
 
-data = date.today().year
-maior_i = 0
-menor_i = 0
+    data = date.today().year
+    maior_i = 0
+    menor_i = 0
 
-for c in range (1, 8): #loop da pergunta
-    ano = int(input("Em que ano a {}ª pessoa nasceu ? ".format(c))) #Pega o ano da pessoa
-    idade = data - ano #Calcula idade
-    if idade >= 18: 
-        maior_i += 1
-    else:
-        menor_i += 1
+    for c in range (1, 8): #loop da pergunta
+        ano = int(input("Em que ano a {}ª pessoa nasceu ? ".format(c))) #Pega o ano da pessoa
+        idade = data - ano #Calcula idade
+        if idade >= 18: 
+            maior_i += 1
+        else:
+            menor_i += 1
 
-print ("Temos {} maiores de idade".format(maior_i)) #Print final
-print ("E {} menores de idade".format(menor_i))
+    print ("Temos {} maiores de idade".format(maior_i)) #Print final
+    print ("E {} menores de idade".format(menor_i))
 
 '''
