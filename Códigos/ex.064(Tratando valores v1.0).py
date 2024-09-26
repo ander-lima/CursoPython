@@ -21,7 +21,7 @@ print('A soma é de: {}'.format(cont))'''
 #versão Guanabara
 
 cont = num = soma = 0
-num = int(input('Digite um número [999 para sair]: '))
+num = int(input('Digite um número [999 para sair]: ')) #essa linha é descartavel
 while num != 999:
     soma += num
     cont += 1

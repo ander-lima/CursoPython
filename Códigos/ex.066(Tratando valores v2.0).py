@@ -19,3 +19,6 @@ while True:
  
 
 print(f'A quantidade de números digitados foi de {c} e a soma é {s}')
+
+#versão Guanabara
+#identico
