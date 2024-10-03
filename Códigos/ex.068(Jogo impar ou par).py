@@ -9,7 +9,7 @@ print("")
 
 #versão Ander
 #logica: Enquanto vitória é 1 > soma numeros, se impar/se par compara resposta > se vitoria :vitoria =1
-import random
+'''import random
 continua = 1
 vit = 0
 
@@ -31,8 +31,18 @@ while continua == 1:
         break
     elif resultado != 0 and resposta == "I":
         print('Você venceu ! Vamos novamente')
-print('FIM')
+print('FIM')'''
 
-
-
-print(4 % 2)
+#versão Guanabara
+from random import randint
+v = 0
+while True:
+    jogador = int(input('Diga um valor: '))
+    computador = randint(0, 10)
+    total = jogador + computador
+    tipo = ' '
+    while tipo is not in 'PI':
+        tipo =  str(input('Par ou Ímpar ? [P/I]')).strip().uper()[0]
+        print(f'Você jogou {jogador} e o computador {computador}. Total de `{total}', end = '')
+        print ('Deu par' if total % 2 == 0 else 'Deu ímpar')
+        if tipo == 'P':
