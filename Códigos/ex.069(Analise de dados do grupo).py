@@ -52,8 +52,8 @@ while True:
             tot_h +=1
         if sexo == 'f' and idade <= 20:
             tot_m20 += 1
-    resp = ' '
 
+    resp = ' '
     while resp not in 'sn':
         resp = input('Quer continuar ? [S/N]').strip().lower()[0]
     if resp == 'n':
