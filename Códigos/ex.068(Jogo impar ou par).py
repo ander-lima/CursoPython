@@ -51,6 +51,7 @@ while True:
             v += 1
         else:
             print ('Você perdeu')
+            print (f'Seu total de vitórias foi {v}')
             break
     elif tipo == 'I':
         if total % 2 != 0:
@@ -58,5 +59,6 @@ while True:
             v += 1
         else:
             print('Você perdeu')
+            print (f'Seu total de vitórias foi {v}')
             break
     print ('Vamos jogar novamente')
