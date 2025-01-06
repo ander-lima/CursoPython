@@ -46,21 +46,20 @@ while True:
     while sexo not in 'mf': 
         sexo = str(input('Sexo: [M/F]')).strip().lower()[0]
 
-        if idade >= 18:
-            tot_18 += 1
-        if sexo == 'm':
-            tot_h +=1
-        if sexo == 'f' and idade <= 20:
-            tot_m20 += 1
+    if idade >= 18:
+        tot_18 += 1
+    if sexo == 'm':
+        tot_h += 1
+    if sexo == 'f' and idade <= 20:
+        tot_m20 += 1
 
     resp = ' '
     while resp not in 'sn':
         resp = input('Quer continuar ? [S/N]').strip().lower()[0]
     if resp == 'n':
         break
-
+print('======= FIM DO PROGRAMA =======')
+print('')
 print (f'Você cadastrou {tot_18} pessoas com mais de 18 anos')
 print(f'Você cadastrou {tot_h} homens no total')
 print(f'Você cadastrou {tot_m20} mulheres com menos de 20 anos')
-print('')
-print('======= FIM DO PROGRAMA =======')
