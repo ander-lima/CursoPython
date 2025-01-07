@@ -23,13 +23,9 @@ while True:
     if preco >= 1000:
         prod_maior1000 += 1
         
-    if preco_mbarato == 0:
+    if preco_mbarato == 0 or preco < preco_mbarato:
         nome_mbarato = nome
         preco_mbarato = preco
-    elif preco < preco_mbarato:
-        nome_mbarato = nome
-        preco_mbarato = preco
-
     resp = ' '
     while resp not in 'sn':
         resp = str(input('Quer continuar? [S/N]')).strip().lower()[0]
