@@ -31,7 +31,10 @@ if qnt_20 > 0:
 if qnt_10 > 0:
     print (f'Total de cédulas {qnt_10} de 10$')
 if qnt_50 > 0:
-    print (f'Total de cédulas {qnt_1} de 1$')'''
+    print (f'Total de cédulas {qnt_1} de 1$')
+    
+#em minha versão acabei não utilizando o while True e Break que eram o objetivo dessa aula'''
+
 
 #versão Guanabara
 print('= =' * 10)
